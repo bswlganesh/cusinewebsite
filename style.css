@@ -112,3 +112,20 @@ body{
   width: 50%;
   text-align:center;
 }
+
+.page2img1{
+  height: auto; 
+  width: 12%;
+  position: absolute;
+  transform: rotate(-20deg);
+  top: 10rem;
+  left: 10rem;
+}
+.page2img2{
+  height: auto; 
+  width: 12%;
+  position: absolute;
+  transform: rotate(20deg);
+  bottom: 10rem;
+  right: 10rem;
+}
