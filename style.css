@@ -1,0 +1,114 @@
+/* fonts 
+.laila-light {
+  font-family: "Laila", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.laila-regular {
+  font-family: "Laila", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.laila-medium {
+  font-family: "Laila", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.laila-semibold {
+  font-family: "Laila", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.laila-bold {
+  font-family: "Laila", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+*/
+
+
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.page1{
+    
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    filter: grayscale(25%);
+    background-image: url(Assets/page1background.jpg);
+    border-bottom-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+.header{
+    font-size: 1.1rem;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    color:aliceblue;
+}
+.page1content{
+    /* padding-top: -2rem; */
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+  height: 100vh;
+}
+.title{
+    font-size:7rem;
+    font-family: "Laila", serif;
+}
+.reservetable{
+    border-radius:100px;;
+    border: 1px solid ;
+    padding: 10px;
+ 
+
+}
+
+
+/* page 2 */
+.page2{
+  height: 100vh;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    filter: grayscale(25%);
+    background-image: url(Assets/page2background.jpg);
+}
+
+.page2content{
+  /* padding-top: 9rem; */
+  color:rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+  height: 100vh;
+}
+
+.page2title{
+  font-size:3rem;
+  font-family: "Laila", serif;
+} 
+
+.page2subtitle{
+  width: 50%;
+  text-align:center;
+}
