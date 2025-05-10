@@ -241,3 +241,56 @@ margin: 0;
   text-align: left;
 }
 
+/* page4 */
+.page4{
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  width: 100vw;
+}
+.page4img1container{
+  
+}
+.page4container{
+  display: grid;
+grid-template: auto auto 1fr / 1fr 1fr 1fr 1fr 1fr;
+height: 100vh;
+width: 100vw;
+}
+
+
+.page4subtitle{
+  height: 10px;
+
+  grid-area: 1/1/2/6;
+ 
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4img1container{
+  grid-area: 2/1/4/4;
+  /* background-image: url(Assets/page4img1.jpg);
+  background-size: cover;*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  margin-left: 3rem; 
+}
+.page4img1{
+  height: 10;
+}
+.page4overtext{
+  grid-area: 2/3/3/6;
+  font-family: "Laila", serif;
+  font-size: 8rem;
+  height: 100%;
+
+}
+.page4leftfooter{
+  grid-area: 3/4/4/6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
