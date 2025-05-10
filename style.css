@@ -178,39 +178,42 @@ body{
   gap: 2rem;
   border-radius: 2%;
 }
-.food1{
-  background-image: url(Assets/page3food1.jpg);
+.food11{
+
  height: 20rem ;
 width: 15rem;
 background-size: cover;
 border-radius: 5%;
 }
 
- 
+.page3fooditems p{
+  text-align: left;
+  font-size: 1.3rem;
+}
 
-.food2{
-  background-image: url(Assets/page3food2.jpg);
+.food22{
+
   height: 20rem ;
 width: 15rem;
 background-size: cover;
 border-radius: 5%;
 }
-.food3{
-  background-image: url(Assets/page3food3.jpg);
+.food33{
+ 
   height: 20rem ;
 width: 15rem;
 border-radius: 5%;
 background-size: cover;
 }
-.food4{
-  background-image: url(Assets/page3food4.jpg);
+.food44{
+  
   height: 20rem ;
 width: 15rem;
 border-radius: 5%;
 background-size: cover;
 }
-.food5{
-  background-image: url(Assets/page3food5.jpg);
+.food55{
+  
   height: 20rem ;
 width: 15rem;
 border-radius: 5%;
@@ -226,10 +229,13 @@ background-size: cover;
  align-self: center;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  
 
-
+}
+.page3footer p{
+margin: 0;
 }
 .page3lowercaption{
   text-align: left;
