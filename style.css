@@ -294,3 +294,86 @@ width: 100vw;
   justify-content: flex-start;
   align-items: center;
 }
+
+/* page5 */
+.page5 {
+  background-color: #fafafa;
+  /* padding: 4rem 2rem; */
+  font-family: "Libre Baskerville", serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.page5content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.page5tagline {
+  font-family: "Laila", serif;
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.page5title {
+  font-size: 3rem;
+  font-family: "Playwrite RO", serif;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+}
+
+.page5images {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.page5img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.page5img1{
+  height: 20rem;
+  align-self: flex-end;
+}
+.page5textblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  max-width: 300px;
+}
+.page5img3{
+  margin-top: 3rem;
+}
+.page5desc {
+  font-size: 0.95rem;
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+  text-align: left;
+}
+
+.page5btn {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d4b06a;
+  text-decoration: none;
+  border-bottom: 1px solid #d4b06a;
+  align-self: flex-start;
+
+}
+
+.page5btn:hover {
+  color: #a47c3b;
+  border-color: #a47c3b;
+}
