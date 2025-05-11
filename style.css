@@ -590,3 +590,265 @@ a {
   margin-left: 20px;
   color: #444;
 }
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Base adjustments */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Page 1 - Hero Section */
+  .page1 {
+    height: auto;
+    min-height: 100vh;
+    background-position: center;
+    padding-bottom: 2rem;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .subtitle {
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  /* Page 2 - Story Section */
+  .page2 {
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  .page2img1, .page2img2 {
+    display: none; /* Hide decorative images on mobile */
+  }
+  
+  .page2title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .page2subtitle {
+    width: 90%;
+    text-align: center;
+  }
+  
+  /* Page 3 - Menu Section */
+  .page3 {
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  .page3content {
+    grid-template-rows: auto auto auto;
+    height: auto;
+    gap: 2rem;
+  }
+  
+  .page3title {
+    font-size: 2.5rem;
+  }
+  
+  .page3fooditems {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .food11, .food22, .food33, .food44, .food55 {
+    width: 90%;
+    height: auto;
+  }
+  
+  .page3footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  /* Page 4 - Signature Dishes */
+  .page4 {
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  .page4container {
+    grid-template: auto auto auto auto / 1fr;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  .page4img1container {
+    grid-area: auto;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .page4img1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .page4overtext {
+    grid-area: auto;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .page4leftfooter {
+    grid-area: auto;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Page 5 - Events */
+  .page5 {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  
+  .page5title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .page5images {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page5textblock {
+    max-width: 100%;
+  }
+  
+  .page5desc {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .page5btn {
+    align-self: center;
+  }
+  
+  /* Page 6 - Gallery */
+  .page6 {
+    height: auto;
+    padding: 3rem 1rem;
+    background-attachment: scroll;
+  }
+  
+  .page6content {
+    padding: 1rem;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .page6text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .page6overlayimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .view-galleries-btn {
+    position: static;
+    margin-top: 1rem;
+  }
+  
+  /* Page 7 - Reservation */
+  .page7 {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  
+  .page7container {
+    flex-direction: column;
+  }
+  
+  .page7title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .page7shortsentence {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .page7button {
+    align-self: center;
+    margin-top: 1rem;
+  }
+  
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .logo-section {
+    text-align: center;
+  }
+  
+  .info-section {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .column {
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    margin: 0 0.5rem;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .title {
+    font-size: 5rem;
+  }
+  
+  .page3title {
+    font-size: 3.5rem;
+  }
+  
+  .page4overtext {
+    font-size: 5rem;
+  }
+  
+  .page7title {
+    font-size: 8rem;
+  }
+  
+  .page3fooditems {
+    flex-wrap: wrap;
+  }
+  
+  .food11, .food22, .food33, .food44, .food55 {
+    width: 45%;
+  }
+}
